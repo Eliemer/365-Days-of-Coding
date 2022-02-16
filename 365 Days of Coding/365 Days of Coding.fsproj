@@ -1,13 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>_365_Days_of_Coding</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup />
+
   <ItemGroup>
-    <Compile Include="Program.fs" />
+    <Compile Include="Day 1\Day 1.fs" />
+    <None Include="Day 1\README.md" />
   </ItemGroup>
 
 </Project>
