@@ -18,3 +18,9 @@ let inline productOfAllOtherIndicesImperative (xs : ^a list) : ^a list =
 
     [ for i, x in List.indexed xs do
         List.fold (*) LanguagePrimitives.GenericOne (List.removeAt i xs) ]
+
+// fails for lists containing zero
+let inline productOfAllOtherIndicesSimple (xs : ^a list) : ^a list =
+
+    let total = List.fold (*) LanguagePrimitives.GenericOne xs
+    List.map (fun x -> total / x) xs 
