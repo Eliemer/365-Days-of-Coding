@@ -9,7 +9,12 @@
   <ItemGroup>
     <Compile Include="Day 1\Day 1.fs" />
     <None Include="Day 1\README.md" />
+    <None Include="Day 2\README.md" />
 	<Compile Include="Day 2\Day 2.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Day 3\" />
   </ItemGroup>
 
 </Project>
