@@ -6,11 +6,10 @@
     <RootNamespace>_365_Days_of_Coding</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup />
-
   <ItemGroup>
     <Compile Include="Day 1\Day 1.fs" />
     <None Include="Day 1\README.md" />
+	<Compile Include="Day 2\Day 2.fs" />
   </ItemGroup>
 
 </Project>
