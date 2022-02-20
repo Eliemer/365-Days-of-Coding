@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Day 3\BinaryTreeGenerator.fs" />
+    <Compile Include="Day 3\Day 3 tests.fs" />
     <Compile Include="Day 2\Day 2 tests.fs" />
     <Compile Include="Day 1\Day 1 tests.fs" />
     <Compile Include="Main.fs" />

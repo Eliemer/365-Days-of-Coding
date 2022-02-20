@@ -8,7 +8,7 @@ module Day_2_tests =
 
     [<Tests>]
     let tests =
-        testList "Day Two Tests" [
+        ptestList "Day Two Tests" [
     
             testCase "Trivial Example" <|
                 fun () ->
@@ -45,7 +45,7 @@ module Day_2_tests =
 
     [<Tests>]
     let testsImperative =
-        testList "Day Two Tests (Imperative)" [
+        ptestList "Day Two Tests (Imperative)" [
 
             testCase "Trivial Example" <|
                 fun () ->
