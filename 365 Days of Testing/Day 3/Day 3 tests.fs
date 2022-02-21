@@ -10,7 +10,7 @@ module Day_3_tests =
                     arbitrary = [typeof<Generator>]}
 
     [<Tests>]
-    let tests = testList "Serialization of Binary Trees" [
+    let tests = ptestList "Serialization of Binary Trees" [
     
         testCase "Trivial Example" <| 
             fun () ->
