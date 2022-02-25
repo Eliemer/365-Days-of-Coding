@@ -9,7 +9,9 @@
   <ItemGroup>
     <None Include="Day 9\README.md" />
     <None Include="Day 8\README.md" />
+    <Compile Include="Day 7\Day 7.fs" />
     <None Include="Day 7\README.md" />
+    <Compile Include="Day 6\Day 6.fs" />
     <None Include="Day 6\README.md" />
     <None Include="Day 5\README.md" />
     <Compile Include="Day 5\Day 5.fs" />
