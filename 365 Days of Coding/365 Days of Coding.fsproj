@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <None Include="Day 9\README.md" />
+    <Compile Include="Day 8\Day 8.fs" />
     <None Include="Day 8\README.md" />
     <Compile Include="Day 7\Day 7.fs" />
     <None Include="Day 7\README.md" />
