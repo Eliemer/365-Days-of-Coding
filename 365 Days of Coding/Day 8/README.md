@@ -7,11 +7,11 @@ Given the root to a binary tree, count the number of unival subtrees.
 # Example
 The following tree has 5 unival subtrees:
 ```
-	0
+    0
    / \
   1   0
      / \
-	1   0
+    1   0
    / \
   1   1
 ```
